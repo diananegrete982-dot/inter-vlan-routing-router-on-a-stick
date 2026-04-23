@@ -27,30 +27,20 @@ The switch was configured to:
 - assign access ports to each VLAN
 - configure a trunk link to the router
 
-### Evidence
+### Key Evidence
 #### VLAN configuration
 <img src="show-vlan-brief.png" alt="Show VLAN Brief" width="700">
-
-
-#### Trunk configuration
-<img src="show-interfaces-trunk.png" alt="Show Interfaces Trunk" width="700">
 
 ## Router Configuration
 The router was configured with subinterfaces to enable routing between VLANs.
 
-### Evidence
+### Key Evidence
 <img src="show-ip-interface-brief.png" alt="Show IP Interface Brief" width="700">
 ## Verification
 Connectivity tests were performed to verify that inter-VLAN communication was working correctly.
 
 ### Ping test: Admin to Sales
 <img src="ping-admin-sales.png" alt="Ping Admin to Sales" width="650">
-
-### Ping test: Sales to IT
-<img src="ping-sales-it.png" alt="Ping Sales to IT" width="650">
-
-### Ping test: IT to Admin
-<img src="ping-it-admin.png" alt="Ping IT to Admin" width="650">
 
 ## Skills Demonstrated
 - VLAN creation and segmentation
@@ -62,3 +52,20 @@ Connectivity tests were performed to verify that inter-VLAN communication was wo
 
 ## What I Learned
 This project helped me understand how VLAN segmentation works and how a router can route traffic between multiple VLANs using subinterfaces and 802.1Q encapsulation.
+
+<details>
+<summary><strong>Additional Evidence</strong></summary>
+
+<br>
+
+### Trunk configuration
+<img src="show-interfaces-trunk.png" alt="Show Interfaces Trunk" width="700">
+
+### Ping test: Sales to IT
+<img src="ping-sales-it.png" alt="Ping Sales to IT" width="650">
+
+### Ping test: IT to Admin
+<img src="ping-it-admin.png" alt="Ping IT to Admin" width="650">
+
+</details>
+
