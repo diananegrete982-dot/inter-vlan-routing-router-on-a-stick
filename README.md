@@ -11,7 +11,7 @@ The network was divided into three VLANs:
 A trunk link was configured between the switch and the router, and router subinterfaces were used to enable communication between VLANs.
 
 ## Topology
-![Network Topology](topology.png)
+<img src="topology.png" alt="Network Topology" width="850">
 
 ## IP Addressing Plan
 
