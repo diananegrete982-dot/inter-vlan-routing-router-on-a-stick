@@ -29,28 +29,28 @@ The switch was configured to:
 
 ### Evidence
 #### VLAN configuration
-![Show VLAN Brief](show-vlan-brief.png)
+<img src="show-vlan-brief.png" alt="Show VLAN Brief" width="700">
+
 
 #### Trunk configuration
-![Show Interfaces Trunk](show-interfaces-trunk.png)
+<img src="show-interfaces-trunk.png" alt="Show Interfaces Trunk" width="700">
 
 ## Router Configuration
 The router was configured with subinterfaces to enable routing between VLANs.
 
 ### Evidence
-![Show IP Interface Brief](show-ip-interface-brief.png)
-
+<img src="show-ip-interface-brief.png" alt="Show IP Interface Brief" width="700">
 ## Verification
 Connectivity tests were performed to verify that inter-VLAN communication was working correctly.
 
 ### Ping test: Admin to Sales
-![Ping Admin to Sales](ping-admin-sales.png)
+<img src="ping-admin-sales.png" alt="Ping Admin to Sales" width="650">
 
 ### Ping test: Sales to IT
-![Ping Sales to IT](ping-sales-it.png)
+<img src="ping-sales-it.png" alt="Ping Sales to IT" width="650">
 
 ### Ping test: IT to Admin
-![Ping IT to Admin](ping-it-admin.png)
+<img src="ping-it-admin.png" alt="Ping IT to Admin" width="650">
 
 ## Skills Demonstrated
 - VLAN creation and segmentation
